@@ -1,0 +1,43 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <!-- ActionBar style -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Status bar color (for Android 5.0 and above) -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@transition/fade</item>
+        <item name="android:windowExitTransition">@transition/fade</item>
+        <!-- Text appearance -->
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+        <!-- Toolbar style -->
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+    </style>
+    <style name="Widget.Theme.LBG.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.LBG.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="low_elevation_card" parent="CardView">
+        <item name="cardCornerRadius">@dimen/card_view_radius</item>
+        <item name="cardElevation">@dimen/card_view_flat_elevation</item>
+    </style>
+
+    <dimen name="card_view_radius">10dp</dimen>
+    <dimen name="card_view_flat_elevation">2dp</dimen>
+</resources>

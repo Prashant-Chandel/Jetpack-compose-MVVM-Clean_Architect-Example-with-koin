@@ -1,0 +1,172 @@
+# 2023-11-07T12:46:22.858Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 3
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "CatFullScreenKtTest"
+    test_package: "com.lbg.project.view"
+    test_method: "testCatDetails"
+    start_time {
+      seconds: 1699361161
+      nanos: 844000000
+    }
+    end_time {
+      seconds: 1699361168
+      nanos: 289000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\logcat-com.lbg.project.view.CatFullScreenKtTest-testCatDetails.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CatFullScreenKtTest"
+    test_package: "com.lbg.project.view"
+    test_method: "testCatFullScreenAppBar"
+    start_time {
+      seconds: 1699361169
+      nanos: 6000000
+    }
+    end_time {
+      seconds: 1699361175
+      nanos: 482000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\logcat-com.lbg.project.view.CatFullScreenKtTest-testCatFullScreenAppBar.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CatFullScreenKtTest"
+    test_package: "com.lbg.project.view"
+    test_method: "testFavoriteButtonToggle"
+    start_time {
+      seconds: 1699361175
+      nanos: 486000000
+    }
+    end_time {
+      seconds: 1699361182
+      nanos: 90000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\logcat-com.lbg.project.view.CatFullScreenKtTest-testFavoriteButtonToggle.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\PR20406131\\Music\\Demo projects MVVM Compose\\LBG\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_Pro_API_34(AVD) - 14\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

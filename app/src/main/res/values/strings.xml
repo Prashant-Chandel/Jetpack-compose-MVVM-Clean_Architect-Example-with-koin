@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MVVMCleanExample</string>
+    <string name="img">Image full view\n</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="cats_are_loaded">Cats are loaded.</string>
+    <string name="you_can_check_your_call_favourite_cats">"You can check your call Favourite cats. "</string>
+    <string name="my_favourite">MyFavourite</string>
+    <string name="favourite_icon">Favourite icon</string>
+    <string name="my_favorites">My Favourites</string>
+    <string name="home">Home</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="both_are_not_equal">Both are not equal</string>
+    <string name="cat_image">Cat Image</string>
+    <string name="favorite_screen_empty_list_text">You haven\'t added\nany cat to your favorites yet</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lbg.project.lbgTest.viewModel.CatsViewModelTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-11-07T12:48:09" hostname="APL-5CD204842N" time="1.231">
+  <properties/>
+  <testcase name="testGetFavEmptyData" classname="com.lbg.project.lbgTest.viewModel.CatsViewModelTest" time="1.109"/>
+  <testcase name="testGetCatsApiData" classname="com.lbg.project.lbgTest.viewModel.CatsViewModelTest" time="0.037"/>
+  <testcase name="testGetEmptyData" classname="com.lbg.project.lbgTest.viewModel.CatsViewModelTest" time="0.008"/>
+  <testcase name="testFetchFavouriteCatsErrorState" classname="com.lbg.project.lbgTest.viewModel.CatsViewModelTest" time="0.033"/>
+  <testcase name="testFetchFavouriteCatsException" classname="com.lbg.project.lbgTest.viewModel.CatsViewModelTest" time="0.024"/>
+  <testcase name="testFetchFavouriteCatsSuccessState" classname="com.lbg.project.lbgTest.viewModel.CatsViewModelTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

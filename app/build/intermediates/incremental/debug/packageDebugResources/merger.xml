@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res"><file name="ic_launcher_background" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\drawable\ic_launcher_foreground.xml" qualifiers="" type="drawable"/><file name="placeholder" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\drawable\placeholder.png" qualifiers="" type="drawable"/><file name="ic_launcher" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="lottie_search" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\raw\lottie_search.json" qualifiers="" type="raw"/><file name="fade" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\transition\fade.xml" qualifiers="" type="transition"/><file path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable></file><file path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#FF8300</color><color name="colorPrimaryDark">#FF7300</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color><color name="favourite">#ffE91E63</color><color name="light_blue_600">#FF039BE5</color><color name="light_blue_900">#FF01579B</color><color name="light_blue_A200">#FF40C4FF</color><color name="light_blue_A400">#FF00B0FF</color><color name="black_overlay">#66000000</color></file><file path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="margin_medium">20dp</dimen><dimen name="margin_small">10dp</dimen><dimen name="margin_xSmall">5dp</dimen></file><file path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">MVVMCleanExample</string><string name="img">Image full view\n</string><string name="no_internet_connection">No internet connection</string><string name="cats_are_loaded">Cats are loaded.</string><string name="you_can_check_your_call_favourite_cats">"You can check your call Favourite cats. "</string><string name="my_favourite">MyFavourite</string><string name="favourite_icon">Favourite icon</string><string name="my_favorites">My Favourites</string><string name="home">Home</string><string name="home_screen">Home Screen</string><string name="both_are_not_equal">Both are not equal</string><string name="cat_image">Cat Image</string><string name="favorite_screen_empty_list_text">You haven\'t added\nany cat to your favorites yet</string></file><file path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        
+        <item name="android:windowActivityTransitions">true</item>
+
+        
+        <item name="android:windowEnterTransition">@transition/fade</item>
+        <item name="android:windowExitTransition">@transition/fade</item>
+        
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+        
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+    </style><style name="Widget.Theme.LBG.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style><style name="Widget.Theme.LBG.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style><style name="low_elevation_card" parent="CardView">
+        <item name="cardCornerRadius">@dimen/card_view_radius</item>
+        <item name="cardElevation">@dimen/card_view_flat_elevation</item>
+    </style><dimen name="card_view_radius">10dp</dimen><dimen name="card_view_flat_elevation">2dp</dimen></file><file path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.app" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style><style name="Theme.base" parent="Base.Theme.app"/><style name="Theme.base.Fullscreen" parent="Theme.base">
+        <item name="android:actionBarStyle">@style/Widget.Theme.LBG.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style><style name="ThemeOverlay.base.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style></file><file path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.LBG" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style><style name="ThemeOverlay.LBG.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+    </style></file><file name="backup_rules" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\xml\backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\res\xml\data_extraction_rules.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\build\generated\res\resValues\debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable></configuration></mergedItems></merger>
