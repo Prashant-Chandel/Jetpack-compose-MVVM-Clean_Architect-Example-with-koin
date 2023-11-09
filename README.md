@@ -8,9 +8,9 @@
 [![Koin](https://img.shields.io/badge/Koin-3.4.3-blue.svg?logo=koin)](https://insert-koin.io/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.10-yellow.svg?logo=kotlin)](http://kotlinlang.org)
 [![Room DB](https://img.shields.io/badge/Room-2.6.0-sky.svg?logo=room)](https://developer.android.com/training/data-storage/room)
-[![Gradle](https://img.shields.io/badge/gradle-8.1.2-red.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+[![Gradle](https://img.shields.io/badge/gradle-8.1.3-red.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
 
-<p align="center">
+<p align="start">
 <img src="info/1.png" width="25%"/>
 <img src="info/2.png" width="25%"/>
 <img src="info/3.png" width="25%"/>
@@ -214,4 +214,20 @@ This commit introduces the following major changes:
 **SOLID Principles and Kotlin Components:** The code adheres to the SOLID principles, ensuring that the codebase is structured with a focus on Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles. Additionally, Kotlin-specific components and functions are leveraged for efficient and expressive code.
 
   **Thank you**😎
+# Licensed
+
+Designed and developed by [Prashant Chandel](Chandela.prashant14@gmail.com)
+
+Licensed under the [Apache License](https://github.com/Prashant-Chandel/MVVM-Clean_Architect-Example-with-koin/blob/Developer/LICENSE), Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+```
+   http://www.apache.org/licenses/LICENSE-2.0
+```
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 
