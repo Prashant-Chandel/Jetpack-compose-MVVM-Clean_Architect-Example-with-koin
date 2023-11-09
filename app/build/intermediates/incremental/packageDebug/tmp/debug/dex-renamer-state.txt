@@ -1,4 +1,4 @@
-#Thu Nov 09 22:59:27 IST 2023
+#Fri Nov 10 00:09:36 IST 2023
 base.0=C\:\\Users\\PR20406131\\Music\\rain 3.0.1\\MVVM-Clean_Architect-Example-with-koin\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\PR20406131\\Music\\rain 3.0.1\\MVVM-Clean_Architect-Example-with-koin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=C\:\\Users\\PR20406131\\Music\\rain 3.0.1\\MVVM-Clean_Architect-Example-with-koin\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex

@@ -5,7 +5,7 @@ package com.clean.mvvm.test;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "com.lbg.project.test";
+  public static final String APPLICATION_ID = "com.clean.mvvm.test";
   public static final String BUILD_TYPE = "debug";
   // Field from default config.
   public static final String API_KEY = "LrQ2oFL4NNo9jgXdOey7DGjuQoyd3xpH";

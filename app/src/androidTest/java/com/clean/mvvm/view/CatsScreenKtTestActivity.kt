@@ -194,10 +194,10 @@ class CatsScreenKtTestActivity {
     fun testCatsList() {
         // Define a list of cat data models for testing
         val catList = listOf(
-            CatDataModel(123,"img1", "https://images.freeimages.com/images/large-previews/d4f/www-1242368.jpg"),
-            CatDataModel(1234,"img2", "https://images.freeimages.com/images/large-previews/636/holding-a-dot-com-iii-1411477.jpg"),
-            CatDataModel(12345,"img3", "https://cdn.pixabay.com/photo/2020/09/19/19/37/landscape-5585247_1280.jpg"),
-            CatDataModel(123456,"img4", "https://cdn.pixabay.com/photo/2022/01/11/21/48/link-6931554_1280.png")
+            CatDataModel(favId = 123, imageId = "img1", url =  "https://images.freeimages.com/images/large-previews/d4f/www-1242368.jpg"),
+            CatDataModel(favId = 1234, imageId = "img2", url = "https://images.freeimages.com/images/large-previews/636/holding-a-dot-com-iii-1411477.jpg"),
+            CatDataModel(favId = 1235, imageId = "img4", url = "https://cdn.pixabay.com/photo/2020/09/19/19/37/landscape-5585247_1280.jpg"),
+            CatDataModel(favId = 1236, imageId = "img5", url = "https://cdn.pixabay.com/photo/2022/01/11/21/48/link-6931554_1280.png")
         )
 
         var selectedItemUrl: String? = null

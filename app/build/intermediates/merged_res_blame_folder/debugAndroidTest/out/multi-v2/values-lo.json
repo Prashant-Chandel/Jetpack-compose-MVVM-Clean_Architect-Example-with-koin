@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.lbg.project.test.app-mergeDebugAndroidTestResources-46:/values-lo/values-lo.xml",
+            "outputFile": "com.clean.mvvm.test.app-mergeDebugAndroidTestResources-46:/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PR20406131\\.gradle\\caches\\transforms-3\\f33dcde0438e13524a63e1fd53d04429\\transformed\\appcompat-1.6.1\\res\\values-lo\\values-lo.xml",

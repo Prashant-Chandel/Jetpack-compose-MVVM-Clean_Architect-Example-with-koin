@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lbg.project.test" >
+    package="com.clean.mvvm.test" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -10,8 +10,8 @@
         android:name="androidx.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.lbg.project"
-        android:targetPackage="com.lbg.project" />
+        android:label="Tests for com.clean.mvvm"
+        android:targetPackage="com.clean.mvvm" />
 
     <application
         android:debuggable="true"

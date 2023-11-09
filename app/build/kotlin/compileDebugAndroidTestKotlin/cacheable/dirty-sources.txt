@@ -1,0 +1,5 @@
+C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\androidTest\java\com\clean\mvvm\ExampleInstrumentedTest.kt
+C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\androidTest\java\com\clean\mvvm\view\CatsScreenKtTestActivity.kt
+C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\androidTest\java\com\clean\mvvm\view\CatsScreenKtTest.kt
+C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\androidTest\java\com\clean\mvvm\view\CatFullScreenKtTest.kt
+C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\androidTest\java\com\clean\mvvm\db\CatItemDaoTest.kt
