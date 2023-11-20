@@ -1,4 +1,4 @@
-package com.clean.mvvm.data.models.mappers
+package com.clean.mvvm.domain.mappers
 
 data class CatDataModel(
     val name: String? ="",
