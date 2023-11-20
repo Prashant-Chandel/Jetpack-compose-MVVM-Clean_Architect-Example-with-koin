@@ -835,7 +835,7 @@ public class LibrariesForLibs extends AbstractExternalDependencyFactory {
             public Provider<String> getAndroidConstraintLayoutCompose() { return getVersion("androidConstraintLayoutCompose"); }
 
             /**
-             * Returns the version associated to this alias: androidGradlePlugin (8.1.2)
+             * Returns the version associated to this alias: androidGradlePlugin (8.1.3)
              * If the version is a rich version and that its not expressible as a
              * single version string, then an empty string is returned.
              * This version was declared in catalog libs.versions.toml

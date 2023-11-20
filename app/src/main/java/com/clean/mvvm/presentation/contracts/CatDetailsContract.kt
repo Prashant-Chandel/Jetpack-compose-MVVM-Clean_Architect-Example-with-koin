@@ -1,7 +1,7 @@
 package com.clean.mvvm.presentation.contracts
 
 
-import com.clean.mvvm.data.models.mappers.CallSuccessModel
+import com.clean.mvvm.domain.mappers.CallSuccessModel
 
 
 class CatDetailsContract {

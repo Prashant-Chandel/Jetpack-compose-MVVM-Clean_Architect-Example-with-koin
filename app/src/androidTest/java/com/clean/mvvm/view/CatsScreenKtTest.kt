@@ -11,11 +11,11 @@ import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
-import com.clean.mvvm.data.models.catsMock.MockFavouriteCatsResponse
-import com.clean.mvvm.data.models.catsMock.MocksCatsDataModel
-import com.clean.mvvm.data.models.catsMock.toResponseCats
-import com.clean.mvvm.data.models.catsMock.toResponseFavCats
-import com.clean.mvvm.data.models.mappers.CatDataModel
+import com.clean.mvvm.catsMock.MockFavouriteCatsResponse
+import com.clean.mvvm.catsMock.MocksCatsDataModel
+import com.clean.mvvm.catsMock.toResponseCats
+import com.clean.mvvm.catsMock.toResponseFavCats
+import com.clean.mvvm.domain.mappers.CatDataModel
 import com.clean.mvvm.presentation.contracts.CatContract
 import com.clean.mvvm.presentation.ui.components.EmptyView
 import com.clean.mvvm.presentation.ui.features.cats.view.CatScreen
@@ -80,7 +80,10 @@ class CatsScreenKtTest {
     @Test
     fun testUserViewWithFavCats() {
 
-        val state = toResponseFavCats(MockFavouriteCatsResponse()).data?.let{ CatContract.State(favCatsList = it)}
+        val state =
+            com.clean.mvvm.catsMock.toResponseFavCats(com.clean.mvvm.catsMock.MockFavouriteCatsResponse()).data?.let {
+                CatContract.State(favCatsList = it)
+            }
         val isFavCatsCall = true
         val onNavigationRequested: (String, String) -> Unit = { _, _ -> /* Handle navigation */ }
 
@@ -125,13 +128,14 @@ class CatsScreenKtTest {
     @Test
     fun testUserView_IfLoadingIsTrue() {
         // Define a sample state for testing
-        val state = toResponseFavCats(MockFavouriteCatsResponse()).data?.let {
-            CatContract.State(
-                favCatsList = it,
-                cats = toResponseCats(MocksCatsDataModel()),
-                isLoading = true
-            )
-        }
+        val state =
+            com.clean.mvvm.catsMock.toResponseFavCats(com.clean.mvvm.catsMock.MockFavouriteCatsResponse()).data?.let {
+                CatContract.State(
+                    favCatsList = it,
+                    cats = com.clean.mvvm.catsMock.toResponseCats(com.clean.mvvm.catsMock.MocksCatsDataModel()),
+                    isLoading = true
+                )
+            }
 
         composeTestRule.setContent {
             if (state != null) {
@@ -158,13 +162,14 @@ class CatsScreenKtTest {
     @Test
     fun testUserView_IfLoadingIsFalse() {
         // Define a sample state for testing
-        val state = toResponseFavCats(MockFavouriteCatsResponse()).data?.let {
-            CatContract.State(
-                favCatsList = it,
-                cats = toResponseCats(MocksCatsDataModel()),
-                isLoading = false
-            )
-        }
+        val state =
+            com.clean.mvvm.catsMock.toResponseFavCats(com.clean.mvvm.catsMock.MockFavouriteCatsResponse()).data?.let {
+                CatContract.State(
+                    favCatsList = it,
+                    cats = com.clean.mvvm.catsMock.toResponseCats(com.clean.mvvm.catsMock.MocksCatsDataModel()),
+                    isLoading = false
+                )
+            }
 
         composeTestRule.setContent {
             if (state != null) {

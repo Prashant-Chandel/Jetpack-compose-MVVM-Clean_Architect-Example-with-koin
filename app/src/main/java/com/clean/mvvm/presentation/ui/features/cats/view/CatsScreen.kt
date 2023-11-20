@@ -64,7 +64,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.clean.mvvm.R
-import com.clean.mvvm.data.models.mappers.CatDataModel
+import com.clean.mvvm.domain.mappers.CatDataModel
 import com.clean.mvvm.presentation.contracts.BaseContract
 import com.clean.mvvm.presentation.contracts.CatContract
 import com.clean.mvvm.presentation.ui.components.EmptyView
@@ -279,7 +279,7 @@ fun CatsList(
     isFavCatsCall: Boolean,
     onItemClicked: (url: String, imageId: String) -> Unit = { _: String, _: String -> },
 
-) {
+    ) {
     LazyVerticalStaggeredGrid(
         columns = StaggeredGridCells.Fixed(2),
         horizontalArrangement = Arrangement.spacedBy(2.dp),

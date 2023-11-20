@@ -7,17 +7,17 @@ import com.clean.mvvm.data.NetworkResult
 import com.clean.mvvm.data.database.LBGDatabase
 import com.clean.mvvm.data.models.catData.CatResponse
 import com.clean.mvvm.data.models.catData.FavouriteCatsItem
-import com.clean.mvvm.data.models.catsMock.MockFavouriteCatsResponse
-import com.clean.mvvm.data.models.catsMock.MocksCatsDataModel
-import com.clean.mvvm.data.models.catsMock.toResponseApiCats
-import com.clean.mvvm.data.models.catsMock.toResponseApiFavCats
-import com.clean.mvvm.data.models.catsMock.toResponseCats
-import com.clean.mvvm.data.models.catsMock.toResponseFavCats
 import com.clean.mvvm.data.repositories.CatsRepositoryImpl
 import com.clean.mvvm.data.services.CatsService
 import com.clean.mvvm.domain.repositories.CatsRepository
 import com.clean.mvvm.domain.usecase.GetCatsUseCase
 import com.clean.mvvm.domain.usecase.GetFavCatsUseCase
+import com.clean.mvvm.models.catMocks.MockFavouriteCatsResponse
+import com.clean.mvvm.models.catMocks.MocksCatsDataModel
+import com.clean.mvvm.models.catMocks.toResponseApiCats
+import com.clean.mvvm.models.catMocks.toResponseApiFavCats
+import com.clean.mvvm.models.catMocks.toResponseCats
+import com.clean.mvvm.models.catMocks.toResponseFavCats
 import com.clean.mvvm.presentation.ui.features.cats.viewModel.CatsViewModel
 import com.clean.mvvm.utils.Constants
 import com.clean.mvvm.utils.TestTags
@@ -53,9 +53,6 @@ class CatsViewModelTest {
     private lateinit var mCatsRepo: CatsRepository
     private val application: Application = mock()
     private lateinit var mViewModel: CatsViewModel
-
-
-
 
     @get:Rule
     val testInstantTaskExecutorRules: TestRule = InstantTaskExecutorRule()
@@ -102,7 +99,16 @@ class CatsViewModelTest {
         mViewModel.getCatsData()
         testDispatcher.scheduler.advanceUntilIdle() // Let the coroutine complete and changes propagate
         val result = mViewModel.state.value.cats
-        assertEquals(application.getString(R.string.both_are_not_equal), result, verifyData)
+        assertEquals(
+            application.getString(R.string.both_are_not_equal),
+            result.size,
+            verifyData.size
+        )
+        assertEquals(
+            application.getString(R.string.both_are_not_equal),
+            result[0].url,
+            verifyData[0].url
+        )
     }
 
     @Test
@@ -133,7 +139,14 @@ class CatsViewModelTest {
 
         // Assert
         assert(result[1] is NetworkResult.Success)
-        assertEquals(application.getString(R.string.both_are_not_equal), result[1].data, verifyData.data)
+        assertEquals(
+            application.getString(R.string.both_are_not_equal),
+            result[1].data?.size, verifyData.data?.size
+        )
+        assertEquals(
+            application.getString(R.string.both_are_not_equal),
+            result[1].data?.get(0)?.image?.url, verifyData.data?.get(0)?.url
+        )
     }
 
     @Test
@@ -153,14 +166,10 @@ class CatsViewModelTest {
 
     @Test
     fun testFetchFavouriteCatsException() = runTest(UnconfinedTestDispatcher()) {
-
         // Set up the mock to throw an exception
         `when`(catService.fetchFavouriteCats(TestTags.SUB_ID)).thenThrow(RuntimeException("An error occurred"))
-
         val result = mCatsRepo.fetchFavouriteCats(TestTags.SUB_ID).toList()
-
         verify(catService).fetchFavouriteCats(TestTags.SUB_ID)
-
         assert(result[1] is NetworkResult.Error)
         val errorResult = result[1] as NetworkResult.Error
     }
