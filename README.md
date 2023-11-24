@@ -1,6 +1,6 @@
 <br />
   <a href="https://github.com/othneildrew/Best-README-Template">
-  <h1 align="start">Kotlin MVVM-Clean Architect-Example-with-DI-koin</h1>
+  <h1 align="start">Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin, Coroutines, Retrofit, Room, Solid Principle, DRY,OOP</h1>
   
 [![License](https://badgen.net/badge/License/Apache/blue/)](https://opensource.org/licenses/Apache-2.0)
 ![MinAPI](https://badgen.net/badge/MinAPI/24/brown/)
