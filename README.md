@@ -8,7 +8,7 @@
 [![Koin](https://img.shields.io/badge/Koin-3.4.3-blue.svg?logo=koin)](https://insert-koin.io/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.10-yellow.svg?logo=kotlin)](http://kotlinlang.org)
 [![Room DB](https://img.shields.io/badge/Room-2.6.0-sky.svg?logo=room)](https://developer.android.com/training/data-storage/room)
-[![Gradle](https://img.shields.io/badge/gradle-8.1.3-red.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+[![Gradle](https://img.shields.io/badge/gradle-8.1.4-red.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
 
 <p align="start">
 <img src="info/1.png" width="25%"/>
