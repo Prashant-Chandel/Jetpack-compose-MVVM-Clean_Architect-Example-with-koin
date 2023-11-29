@@ -29,16 +29,16 @@
     <string name="no_internet_connection">No internet connection</string>
     <string name="you_can_check_your_call_favourite_cats">"You can check your call Favourite cats. "</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorPrimary</item>
+         
+         <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorPrimary</item>
 
-        
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
+         
+         <item name="android:windowActionBar">false</item>
+         <item name="android:windowNoTitle">true</item>
 
-        
+         
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
         
         <item name="android:windowActivityTransitions">true</item>
