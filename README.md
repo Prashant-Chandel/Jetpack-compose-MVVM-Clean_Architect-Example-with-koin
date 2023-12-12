@@ -199,7 +199,7 @@ Mockito is used for unit testing the API and network-related components. It allo
     
 ### Commits Includes
 > [!IMPORTANT]   
-> Commit c2510e7b6b3b29c432974c0ee85ce1b80e587a3b
+> [Commit c2510e7b6b3b29c432974c0ee85ce1b80e587a3b](https://github.com/Prashant-Chandel/MVVM-Clean_Architect-Example-with-koin/commit/c2510e7b6b3b29c432974c0ee85ce1b80e587a3b)
 
 This commit introduces the following major changes:
 
@@ -216,6 +216,63 @@ This commit introduces the following major changes:
 **UI Enhancements:** The commit includes enhancements to the user interface, improving the overall user experience.
 
 **SOLID Principles and Kotlin Components:** The code adheres to the SOLID principles, ensuring that the codebase is structured with a focus on Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles. Additionally, Kotlin-specific components and functions are leveraged for efficient and expressive code.
+
+> [!IMPORTANT]   
+> [Commit f4952563f5cb885edbcd72d9b43f79f7cc883b1e](https://github.com/Prashant-Chandel/MVVM-Clean_Architect-Example-with-koin/commit/f4952563f5cb885edbcd72d9b43f79f7cc883b1e)
+
+  This commit introduces the following major changes:
+
+**Enhanced Flow Handling:** Improvements in flow handling make the application more responsive and efficient in handling asynchronous data changes in the data layer.
+
+**changes Koin UseCase module**  Koin Use Case Module Update
+
+In the project's evolution, there have been changes to the declaration of the Koin use case module. These changes enhance the way use cases are injected into the application, providing more flexibility and modularity.
+
+Updated Koin Module Declaration
+
+Previously, the Koin use case module might have been declared as follows:
+ 
+```
+"single" definition, create an object that is persistent with the entire container lifetime (can't be dropped).
+ single { GetCatsUseCase(get()) }
+```
+To ensure compliance with these conditions:
+```
+ long live components (Services, Data Repository ...) - used by several screens, never dropped
+ medium live components (user sessions ...) - used by several screens, must be dropped after an amount of time
+ short live components (views) - used by only one screen & must be dropped at the end of the screen
+```
+ Now, with the recent changes, the Koin module for use cases is declared in a more scallable manner:
+ ```
+"factory definition", create a new object each time. Short live. No persistence in the container (can't be shared).
+ factory<GetCatsUseCase> { GetCatsUseCaseImpl(get()) }
+``` 
+While these aspects play a crucial role in scaling an application, there's an opportunity to further enhance scalability by explicitly defining the scope of the module. This can be achieved through the use of scoped definitions, where an object is created with persistence tied to the associated scope's lifetime. This approach ensures a more granular and controlled management of dependencies, contributing to the overall scalability and maintainability of the application.
+```
+scope<A> { } is equivalent to scope(named<A>()){ } , but more convenient to write.You can also use a string qualifier like: scope(named("SCOPE_NAME")) { }
+1. using string name of scope
+scope(named("myScope")) {
+        // Define dependencies specific to this scope
+        scoped<CatUseCase> { CatUseCaseImpl(get()) }
+        
+        // Define ViewModel for the scope
+        viewModel { CatViewModel(get()) }
+    }
+2. Anonymous
+scope {
+        // Define dependencies specific to this anonymous scope
+        scoped<CatUseCase> { CatUseCaseImpl(get()) }
+        
+        // Define ViewModel for the anonymous scope
+        viewModel { CatViewModel(get()) }
+    }
+```
+To integrate it into the ViewModel, ensure that your ViewModel implements the KoinComponent. This allows the ViewModel to leverage Koin's dependency injection features seamlessly.
+
+**SOLID Principles and Kotlin Components:** The code adheres to the SOLID principles, ensuring that the code base is structured with a focus on Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles. Additionally, Kotlin-specific components and functions are leveraged for efficient and expressive code.
+ 
+
+ 
 
   **Thank you**😎
 # Licensed
