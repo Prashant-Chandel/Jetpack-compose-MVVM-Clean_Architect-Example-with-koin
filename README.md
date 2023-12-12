@@ -3,12 +3,14 @@
   <h2 align="start">Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin, Coroutines, Retrofit, Room, Solid Principles, DRY Principle, OOPs</h2>
   
 [![License](https://badgen.net/badge/License/Apache/blue/)](https://opensource.org/licenses/Apache-2.0)
-![MinAPI](https://badgen.net/badge/MinAPI/24/brown/)
+![MinAPI](https://badgen.net/badge/MinAPI/24/silver/)
 [![Compose](https://img.shields.io/badge/compose-1.5.4-green.svg?)](https://developer.android.com/jetpack/compose)
 [![Koin](https://img.shields.io/badge/Koin-3.4.3-blue.svg?logo=koin)](https://insert-koin.io/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.10-yellow.svg?logo=kotlin)](http://kotlinlang.org)
 [![Room DB](https://img.shields.io/badge/Room-2.6.0-sky.svg?logo=room)](https://developer.android.com/training/data-storage/room)
-[![Gradle](https://img.shields.io/badge/gradle-8.1.4-red.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+[![Mokito](https://img.shields.io/badge/mokito-2.2.0-red.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+[![Junit](https://img.shields.io/badge/junit-4.13.2-pink.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+[![Gradle](https://img.shields.io/badge/gradle-8.2.0-gold.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
 
 <p align="start">
 <img src="info/1.png" width="25%"/>
