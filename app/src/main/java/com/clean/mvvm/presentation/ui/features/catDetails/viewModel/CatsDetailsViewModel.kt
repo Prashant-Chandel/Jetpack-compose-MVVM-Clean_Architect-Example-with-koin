@@ -6,9 +6,9 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.clean.mvvm.data.NetworkResult
-import com.clean.mvvm.domain.usecase.CheckFavouriteUseCase
-import com.clean.mvvm.domain.usecase.DeleteFavCatUseCase
-import com.clean.mvvm.domain.usecase.PostFavCatUseCase
+import com.clean.mvvm.domain.usecase.catsDetail.CheckFavUseCase
+import com.clean.mvvm.domain.usecase.catsDetail.DeleteFavCatUseCase
+import com.clean.mvvm.domain.usecase.catsDetail.PostFavCatUseCase
 import com.clean.mvvm.presentation.contracts.BaseContract
 import com.clean.mvvm.presentation.contracts.CatDetailsContract
 import com.clean.mvvm.utils.ErrorsMessage
@@ -21,7 +21,7 @@ import kotlinx.coroutines.launch
 class CatsDetailsViewModel(
     private val postFavCatUseCase: PostFavCatUseCase,
     private val deleteFavCatUseCase: DeleteFavCatUseCase,
-    private val checkFavouriteUseCase: CheckFavouriteUseCase,
+    private val checkFavouriteUseCase: CheckFavUseCase,
 ) : ViewModel() {
 
     var state by mutableStateOf(

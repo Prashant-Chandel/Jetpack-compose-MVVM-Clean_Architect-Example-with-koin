@@ -9,9 +9,11 @@ import com.clean.mvvm.data.models.catData.CatResponse
 import com.clean.mvvm.data.models.catData.FavouriteCatsItem
 import com.clean.mvvm.data.repositories.CatsRepositoryImpl
 import com.clean.mvvm.data.services.CatsService
+import com.clean.mvvm.data.services.cats.CatApiServiceHelperImpl
+import com.clean.mvvm.data.services.cats.CatsDatabaseHelperImpl
 import com.clean.mvvm.domain.repositories.CatsRepository
-import com.clean.mvvm.domain.usecase.GetCatsUseCase
-import com.clean.mvvm.domain.usecase.GetFavCatsUseCase
+import com.clean.mvvm.domain.usecase.cats.GetCatsUseCaseImpl
+import com.clean.mvvm.domain.usecase.cats.GetFavCatsUseCaseImpl
 import com.clean.mvvm.models.catMocks.MockFavouriteCatsResponse
 import com.clean.mvvm.models.catMocks.MocksCatsDataModel
 import com.clean.mvvm.models.catMocks.toResponseApiCats
@@ -67,13 +69,16 @@ class CatsViewModelTest {
     fun setUp() {
         MockitoAnnotations.openMocks(this)
         val databaseReference = mock(LBGDatabase::class.java)
-         mCatsRepo = CatsRepositoryImpl(catService, databaseReference)
+        val apiHelper = CatApiServiceHelperImpl(catService)
+        val dbHelper = CatsDatabaseHelperImpl(databaseReference)
+        mCatsRepo = CatsRepositoryImpl(apiHelper, dbHelper)
         Dispatchers.setMain(testDispatcher)
-        val catUseCase = GetCatsUseCase(mCatsRepo)
-        val favCatUseCase = GetFavCatsUseCase(mCatsRepo)
+        val catUseCase = GetCatsUseCaseImpl(mCatsRepo)
+        val favCatUseCase = GetFavCatsUseCaseImpl(mCatsRepo)
 
         mViewModel = CatsViewModel(catUseCase, favCatUseCase)
     }
+
 
     @Test
     fun testGetEmptyData() = runTest(UnconfinedTestDispatcher()) {

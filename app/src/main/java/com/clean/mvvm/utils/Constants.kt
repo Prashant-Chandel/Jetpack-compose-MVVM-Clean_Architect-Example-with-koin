@@ -10,7 +10,7 @@ class Constants {
         internal const val IMAGE_ID: String = "image_iD"
         internal const val FAV_ID: String = "favourite_id"
         internal const val baseUrl: String = BuildConfig.baseUrl
-        internal const val MY_RAIN_SHARED_PREFERENCES: String = BuildConfig.prefName
+        internal const val SHARED_PREFERENCES: String = BuildConfig.prefName
         internal const val PREF_PASSWORD: String = BuildConfig.prefPassword
         internal const val URL: String = "image_url"
         internal const val DATABASE_NAME: String = "lbg.db"

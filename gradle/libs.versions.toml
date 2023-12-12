@@ -35,7 +35,7 @@ espressoVersion= "3.5.0"
 koinVersion="3.4.3"
 retrofitVersion="2.9.0"
 
-androidGradlePlugin = "8.1.4"
+androidGradlePlugin = "8.2.0"
 kotlin = "1.9.10"
 ksp="1.9.10-1.0.13"
 

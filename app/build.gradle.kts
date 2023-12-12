@@ -7,7 +7,7 @@ plugins {
 }
 
 
-val secretPropertiesFile = rootProject.file("secrets.properties")
+val secretPropertiesFile: File = rootProject.file("secrets.properties")
 val sitProps = Properties()
 secretPropertiesFile.inputStream().use { input ->
     sitProps.load(input)

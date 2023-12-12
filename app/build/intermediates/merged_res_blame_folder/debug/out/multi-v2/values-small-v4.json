@@ -4,7 +4,7 @@
             "outputFile": "com.clean.mvvm.app-mergeDebugResources-73:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\PR20406131\\.gradle\\caches\\transforms-3\\fcab1f0231c8fa1832b57fef9b183089\\transformed\\material-1.10.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\PR20406131\\.gradle\\caches\\transforms-3\\06c14b2bfc4b67e89196282163db2bc2\\transformed\\material-1.10.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

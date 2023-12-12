@@ -7,19 +7,32 @@ import com.clean.mvvm.data.database.LBGDatabase
 import com.clean.mvvm.data.repositories.CatDetailsRepositoryImpl
 import com.clean.mvvm.data.repositories.CatsRepositoryImpl
 import com.clean.mvvm.data.services.CatsService
-import com.google.gson.GsonBuilder
+import com.clean.mvvm.data.services.cats.CatApiServiceHelper
+import com.clean.mvvm.data.services.cats.CatApiServiceHelperImpl
+import com.clean.mvvm.data.services.cats.CatsDatabaseHelper
+import com.clean.mvvm.data.services.cats.CatsDatabaseHelperImpl
+import com.clean.mvvm.data.services.catsDetail.CatDetailsApiServiceHelper
+import com.clean.mvvm.data.services.catsDetail.CatDetailsApiServiceHelperImpl
+import com.clean.mvvm.data.services.catsDetail.CatsDetailsDatabaseHelper
+import com.clean.mvvm.data.services.catsDetail.CatsDetailsDatabaseHelperImpl
 import com.clean.mvvm.domain.repositories.CatDetailsRepository
 import com.clean.mvvm.domain.repositories.CatsRepository
-import com.clean.mvvm.domain.usecase.CheckFavouriteUseCase
-import com.clean.mvvm.domain.usecase.DeleteFavCatUseCase
-import com.clean.mvvm.domain.usecase.GetCatsUseCase
-import com.clean.mvvm.domain.usecase.GetFavCatsUseCase
-import com.clean.mvvm.domain.usecase.PostFavCatUseCase
+import com.clean.mvvm.domain.usecase.cats.GetCatsUseCase
+import com.clean.mvvm.domain.usecase.cats.GetCatsUseCaseImpl
+import com.clean.mvvm.domain.usecase.cats.GetFavCatsUseCase
+import com.clean.mvvm.domain.usecase.cats.GetFavCatsUseCaseImpl
+import com.clean.mvvm.domain.usecase.catsDetail.CheckFavUseCase
+import com.clean.mvvm.domain.usecase.catsDetail.CheckFavouriteUseCaseImpl
+import com.clean.mvvm.domain.usecase.catsDetail.DeleteFavCatUseCase
+import com.clean.mvvm.domain.usecase.catsDetail.DeleteFavCatUseCaseImpl
+import com.clean.mvvm.domain.usecase.catsDetail.PostFavCatUseCase
+import com.clean.mvvm.domain.usecase.catsDetail.PostFavCatUseCaseImpl
 import com.clean.mvvm.network.interceptor.HeaderInterceptor
 import com.clean.mvvm.network.interceptor.NetworkConnectionInterceptor
 import com.clean.mvvm.presentation.ui.features.catDetails.viewModel.CatsDetailsViewModel
 import com.clean.mvvm.presentation.ui.features.cats.viewModel.CatsViewModel
 import com.clean.mvvm.utils.Constants
+import com.google.gson.GsonBuilder
 import com.pddstudio.preferences.encrypted.EncryptedPreferences
 import kotlinx.coroutines.Dispatchers
 import okhttp3.OkHttpClient
@@ -43,7 +56,7 @@ private val gsonModule = module {
 
 private fun getSharedPreferences(androidApplication: Application): SharedPreferences =
     androidApplication.getSharedPreferences(
-        Constants.MY_RAIN_SHARED_PREFERENCES, Context.MODE_PRIVATE
+        Constants.SHARED_PREFERENCES, Context.MODE_PRIVATE
     )
 
 private val persistence = module {
@@ -58,21 +71,27 @@ private val persistence = module {
     }
 }
 private val viewModelModule = module {
-    viewModel { CatsViewModel(get(),get()) }
-    viewModel { CatsDetailsViewModel(get(),get(),get()) }
+    viewModel { CatsViewModel(get(), get()) }
+    viewModel { CatsDetailsViewModel(get(), get(), get()) }
 
 }
+private val serviceHelperModule = module {
+    factory<CatApiServiceHelper> { CatApiServiceHelperImpl(get()) }
+    factory<CatsDatabaseHelper> { CatsDatabaseHelperImpl(get()) }
+    factory<CatDetailsApiServiceHelper> { CatDetailsApiServiceHelperImpl(get()) }
+    factory<CatsDetailsDatabaseHelper> { CatsDetailsDatabaseHelperImpl(get()) }
+}
 private val repoModule = module {
-    single<CatsRepository> { CatsRepositoryImpl(get(),get()) }
-    single<CatDetailsRepository> { CatDetailsRepositoryImpl(get(),get()) }
+    single<CatsRepository> { CatsRepositoryImpl(get(), get()) }
+    single<CatDetailsRepository> { CatDetailsRepositoryImpl(get(), get()) }
 
 }
 private val useCaseModule = module {
-    single { GetCatsUseCase(get()) }
-    single { GetFavCatsUseCase(get()) }
-    single { PostFavCatUseCase(get()) }
-    single { CheckFavouriteUseCase(get()) }
-    single { DeleteFavCatUseCase(get()) }
+    factory<GetCatsUseCase> { GetCatsUseCaseImpl(get()) }
+    factory<GetFavCatsUseCase> { GetFavCatsUseCaseImpl(get()) }
+    factory<PostFavCatUseCase> { PostFavCatUseCaseImpl(get()) }
+    factory<CheckFavUseCase> { CheckFavouriteUseCaseImpl(get()) }
+    factory<DeleteFavCatUseCase> { DeleteFavCatUseCaseImpl(get()) }
 }
 
 const val url = "CatUrl"
@@ -136,6 +155,7 @@ val allModules = listOf(
     dispatchModule,
     gsonModule,
     serviceModule,
+    serviceHelperModule,
     repoModule,
     useCaseModule,
     databaseModule

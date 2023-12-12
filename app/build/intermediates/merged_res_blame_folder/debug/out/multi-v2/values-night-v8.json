@@ -4,6 +4,23 @@
             "outputFile": "com.clean.mvvm.app-mergeDebugResources-73:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\PR20406131\\.gradle\\caches\\transforms-3\\de26d5cd6a9b7b82931a8f36fb70caa6\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,38",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "166,236,320,404,500,602,704,3559",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "231,315,399,495,597,699,793,3643"
+                    }
+                },
+                {
                     "source": "C:\\Users\\PR20406131\\Music\\rain 3.0.1\\MVVM-Clean_Architect-Example-with-koin\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2,7",
@@ -23,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\PR20406131\\.gradle\\caches\\transforms-3\\fcab1f0231c8fa1832b57fef9b183089\\transformed\\material-1.10.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\PR20406131\\.gradle\\caches\\transforms-3\\06c14b2bfc4b67e89196282163db2bc2\\transformed\\material-1.10.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -37,23 +54,6 @@
                         "startOffsets": "798,873,984,1073,1174,1281,1388,1487,1594,1697,1785,1909,2011,2113,2229,2331,2445,2573,2689,2811,2947,3067,3201,3321,3433,3874,3991,4115,4245,4367,4505,4639,4755",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "868,979,1068,1169,1276,1383,1482,1589,1692,1780,1904,2006,2108,2224,2326,2440,2568,2684,2806,2942,3062,3196,3316,3428,3554,3986,4110,4240,4362,4500,4634,4750,4870"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\PR20406131\\.gradle\\caches\\transforms-3\\c2f3c6e4a351db8dc25fe58990c349c8\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,11,12,38",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "166,236,320,404,500,602,704,3559",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "231,315,399,495,597,699,793,3643"
                     }
                 }
             ]

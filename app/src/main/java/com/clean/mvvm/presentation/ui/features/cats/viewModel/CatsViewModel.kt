@@ -3,8 +3,8 @@ package com.clean.mvvm.presentation.ui.features.cats.viewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.clean.mvvm.data.NetworkResult
-import com.clean.mvvm.domain.usecase.GetCatsUseCase
-import com.clean.mvvm.domain.usecase.GetFavCatsUseCase
+import com.clean.mvvm.domain.usecase.cats.GetCatsUseCase
+import com.clean.mvvm.domain.usecase.cats.GetFavCatsUseCase
 import com.clean.mvvm.presentation.contracts.BaseContract
 import com.clean.mvvm.presentation.contracts.CatContract
 import com.clean.mvvm.utils.ErrorsMessage
