@@ -1,14 +1,16 @@
 <br />
   <a href="https://github.com/othneildrew/Best-README-Template">
-  <h1 align="start">Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin, Coroutines, Retrofit, Room, Solid Principle, DRY,OOP</h1>
+  <h2 align="start">Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin, Coroutines, Retrofit, Room, Solid Principles, DRY Principle, OOPs</h2>
   
 [![License](https://badgen.net/badge/License/Apache/blue/)](https://opensource.org/licenses/Apache-2.0)
-![MinAPI](https://badgen.net/badge/MinAPI/24/brown/)
+![MinAPI](https://badgen.net/badge/MinAPI/24/silver/)
 [![Compose](https://img.shields.io/badge/compose-1.5.4-green.svg?)](https://developer.android.com/jetpack/compose)
 [![Koin](https://img.shields.io/badge/Koin-3.4.3-blue.svg?logo=koin)](https://insert-koin.io/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.10-yellow.svg?logo=kotlin)](http://kotlinlang.org)
 [![Room DB](https://img.shields.io/badge/Room-2.6.0-sky.svg?logo=room)](https://developer.android.com/training/data-storage/room)
-[![Gradle](https://img.shields.io/badge/gradle-8.1.4-red.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+[![Mokito](https://img.shields.io/badge/mokito-2.2.0-red.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+[![Junit](https://img.shields.io/badge/junit-4.13.2-pink.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
+[![Gradle](https://img.shields.io/badge/gradle-8.2.0-gold.svg?)](https://lv.binarybabel.org/catalog/gradle/latest)
 
 <p align="start">
 <img src="info/1.png" width="25%"/>
@@ -32,7 +34,7 @@
 * [Commits Includes](#commits-includes)
 
 # About the Project
-LBGProject is a sample project that presents a modern approach to Android app development.
+Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin is a sample project that presents a modern approach to Android app development.
 The project tries to combine popular Android tools and to demonstrate best development practices by utilizing up to date tech-stack like Compose, Kotlin Flow and Koin.
 The sample app layers its presentation through MVVM Clean Architecture presentation pattern. 
 
@@ -196,7 +198,9 @@ Mockito is used for unit testing the API and network-related components. It allo
   - Android Studio's Gradle JDK version should be Java 17.0.6.
     
 ### Commits Includes
-#### Commit c2510e7b6b3b29c432974c0ee85ce1b80e587a3b
+> [!IMPORTANT]   
+> Commit c2510e7b6b3b29c432974c0ee85ce1b80e587a3b
+
 This commit introduces the following major changes:
 
 **Dependency Injection (DI) Implementation:** The commit includes the implementation of Dependency Injection. This architectural pattern is essential for providing objects with their dependencies, improving code modularity and testability.
