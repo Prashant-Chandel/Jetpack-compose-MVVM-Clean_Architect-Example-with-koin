@@ -64,173 +64,172 @@
 37-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:15:9-54
 38        android:supportsRtl="true"
 38-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:16:9-35
-39        android:testOnly="true"
-40        android:theme="@style/AppTheme" >
-40-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:17:9-40
-41        <activity
-41-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:20:9-29:20
-42            android:name="com.clean.mvvm.presentation.ui.features.cats.CatsActivity"
-42-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:21:13-85
-43            android:configChanges="orientation|keyboardHidden|screenSize"
-43-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:22:13-74
-44            android:exported="true"
-44-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:23:13-36
-45            android:theme="@style/AppTheme" >
-45-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:24:13-44
-46            <intent-filter>
-46-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:25:13-28:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:26:17-69
-47-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:26:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:17-77
-49-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:27-74
-50            </intent-filter>
-51        </activity>
-52        <activity
-52-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:30:9-33:40
-53            android:name="com.clean.mvvm.presentation.ui.features.catDetails.CatFullImageActivity"
-53-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:31:13-99
-54            android:configChanges="orientation|keyboardHidden|screenSize"
-54-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:32:13-74
-55            android:exported="false" />
-55-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:33:13-37
-56        <activity
-56-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\45997698d45204061db6f6302fcf5638\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
-57            android:name="androidx.compose.ui.tooling.PreviewActivity"
-57-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\45997698d45204061db6f6302fcf5638\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-58            android:exported="true" />
-58-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\45997698d45204061db6f6302fcf5638\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
-59        <activity
-59-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\6b9599cb8d94166e7725a40c69e3ce2a\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
-60            android:name="androidx.activity.ComponentActivity"
-60-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\6b9599cb8d94166e7725a40c69e3ce2a\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
-61            android:exported="true" />
-61-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\6b9599cb8d94166e7725a40c69e3ce2a\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
-62        <activity
-62-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
-63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-63-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
-64            android:exported="true"
-64-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
-65            android:theme="@style/WhiteBackgroundTheme" >
-65-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
-66            <intent-filter android:priority="-100" >
-66-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
-66-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
-67                <category android:name="android.intent.category.LAUNCHER" />
-67-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:17-77
-67-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:27-74
-68            </intent-filter>
-69        </activity>
-70        <activity
-70-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
-71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-71-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
-72            android:exported="true"
-72-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
-73            android:theme="@style/WhiteBackgroundTheme" >
-73-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
-74            <intent-filter android:priority="-100" >
-74-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
-74-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
-75                <category android:name="android.intent.category.LAUNCHER" />
-75-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:17-77
-75-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:27-74
-76            </intent-filter>
-77        </activity>
-78        <activity
-78-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
-79            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-79-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
-80            android:exported="true"
-80-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
-81            android:theme="@style/WhiteBackgroundDialogTheme" >
-81-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
-82            <intent-filter android:priority="-100" >
-82-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
-82-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
-83                <category android:name="android.intent.category.LAUNCHER" />
-83-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:17-77
-83-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:27-74
-84            </intent-filter>
-85        </activity>
-86
-87        <provider
-87-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
-88            android:name="androidx.startup.InitializationProvider"
-88-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
-89            android:authorities="com.clean.mvvm.androidx-startup"
-89-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
-90            android:exported="false" >
-90-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
-91            <meta-data
-91-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
-92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-92-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
-93                android:value="androidx.startup" />
-93-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
-94            <meta-data
-94-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PR20406131\.gradle\caches\transforms-3\0e9f8a7aef6302d9e5f1b287b3b7c2cb\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-95-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PR20406131\.gradle\caches\transforms-3\0e9f8a7aef6302d9e5f1b287b3b7c2cb\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-96                android:value="androidx.startup" />
-96-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PR20406131\.gradle\caches\transforms-3\0e9f8a7aef6302d9e5f1b287b3b7c2cb\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-97            <meta-data
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-98                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-99                android:value="androidx.startup" />
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-100        </provider>
-101
-102        <service
-102-->[androidx.room:room-runtime:2.6.0] C:\Users\PR20406131\.gradle\caches\transforms-3\ab55b8632889a16bf62e190dcc9fa00f\transformed\room-runtime-2.6.0\AndroidManifest.xml:24:9-28:63
-103            android:name="androidx.room.MultiInstanceInvalidationService"
-103-->[androidx.room:room-runtime:2.6.0] C:\Users\PR20406131\.gradle\caches\transforms-3\ab55b8632889a16bf62e190dcc9fa00f\transformed\room-runtime-2.6.0\AndroidManifest.xml:25:13-74
-104            android:directBootAware="true"
-104-->[androidx.room:room-runtime:2.6.0] C:\Users\PR20406131\.gradle\caches\transforms-3\ab55b8632889a16bf62e190dcc9fa00f\transformed\room-runtime-2.6.0\AndroidManifest.xml:26:13-43
-105            android:exported="false" />
-105-->[androidx.room:room-runtime:2.6.0] C:\Users\PR20406131\.gradle\caches\transforms-3\ab55b8632889a16bf62e190dcc9fa00f\transformed\room-runtime-2.6.0\AndroidManifest.xml:27:13-37
-106
-107        <receiver
-107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-108            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-109            android:directBootAware="false"
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-110            android:enabled="true"
-110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-111            android:exported="true"
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-112            android:permission="android.permission.DUMP" >
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-113            <intent-filter>
-113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-114                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-115            </intent-filter>
-116            <intent-filter>
-116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-117                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-118            </intent-filter>
-119            <intent-filter>
-119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-120                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-121            </intent-filter>
-122            <intent-filter>
-122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-123                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-124            </intent-filter>
-125        </receiver>
-126    </application>
-127
-128</manifest>
+39        android:theme="@style/AppTheme" >
+39-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:17:9-40
+40        <activity
+40-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:20:9-29:20
+41            android:name="com.clean.mvvm.presentation.ui.features.cats.CatsActivity"
+41-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:21:13-85
+42            android:configChanges="orientation|keyboardHidden|screenSize"
+42-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:22:13-74
+43            android:exported="true"
+43-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:23:13-36
+44            android:theme="@style/AppTheme" >
+44-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:24:13-44
+45            <intent-filter>
+45-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:25:13-28:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:26:17-69
+46-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:26:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:17-77
+48-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:30:9-33:40
+52            android:name="com.clean.mvvm.presentation.ui.features.catDetails.CatFullImageActivity"
+52-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:31:13-99
+53            android:configChanges="orientation|keyboardHidden|screenSize"
+53-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:32:13-74
+54            android:exported="false" />
+54-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:33:13-37
+55        <activity
+55-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\45997698d45204061db6f6302fcf5638\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+56            android:name="androidx.compose.ui.tooling.PreviewActivity"
+56-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\45997698d45204061db6f6302fcf5638\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+57            android:exported="true" />
+57-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\45997698d45204061db6f6302fcf5638\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+58        <activity
+58-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\6b9599cb8d94166e7725a40c69e3ce2a\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
+59            android:name="androidx.activity.ComponentActivity"
+59-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\6b9599cb8d94166e7725a40c69e3ce2a\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
+60            android:exported="true" />
+60-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\PR20406131\.gradle\caches\transforms-3\6b9599cb8d94166e7725a40c69e3ce2a\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
+61        <activity
+61-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+62            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+62-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+63            android:exported="true"
+63-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+64            android:theme="@style/WhiteBackgroundTheme" >
+64-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+65            <intent-filter android:priority="-100" >
+65-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+65-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:17-77
+66-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+70            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+70-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+71            android:exported="true"
+71-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+72            android:theme="@style/WhiteBackgroundTheme" >
+72-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+73            <intent-filter android:priority="-100" >
+73-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+73-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:17-77
+74-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+78            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+78-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+79            android:exported="true"
+79-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+80            android:theme="@style/WhiteBackgroundDialogTheme" >
+80-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+81            <intent-filter android:priority="-100" >
+81-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+81-->[androidx.test:core:1.5.0] C:\Users\PR20406131\.gradle\caches\transforms-3\8f57de65cfe672772ffae050f3152957\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:17-77
+82-->C:\Users\PR20406131\Music\rain 3.0.1\MVVM-Clean_Architect-Example-with-koin\app\src\main\AndroidManifest.xml:27:27-74
+83            </intent-filter>
+84        </activity>
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+88            android:authorities="com.clean.mvvm.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.4.0] C:\Users\PR20406131\.gradle\caches\transforms-3\1b18dde0c12c468f29c090b55bd6d58a\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PR20406131\.gradle\caches\transforms-3\0e9f8a7aef6302d9e5f1b287b3b7c2cb\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PR20406131\.gradle\caches\transforms-3\0e9f8a7aef6302d9e5f1b287b3b7c2cb\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\PR20406131\.gradle\caches\transforms-3\0e9f8a7aef6302d9e5f1b287b3b7c2cb\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+98                android:value="androidx.startup" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+99        </provider>
+100
+101        <service
+101-->[androidx.room:room-runtime:2.6.0] C:\Users\PR20406131\.gradle\caches\transforms-3\ab55b8632889a16bf62e190dcc9fa00f\transformed\room-runtime-2.6.0\AndroidManifest.xml:24:9-28:63
+102            android:name="androidx.room.MultiInstanceInvalidationService"
+102-->[androidx.room:room-runtime:2.6.0] C:\Users\PR20406131\.gradle\caches\transforms-3\ab55b8632889a16bf62e190dcc9fa00f\transformed\room-runtime-2.6.0\AndroidManifest.xml:25:13-74
+103            android:directBootAware="true"
+103-->[androidx.room:room-runtime:2.6.0] C:\Users\PR20406131\.gradle\caches\transforms-3\ab55b8632889a16bf62e190dcc9fa00f\transformed\room-runtime-2.6.0\AndroidManifest.xml:26:13-43
+104            android:exported="false" />
+104-->[androidx.room:room-runtime:2.6.0] C:\Users\PR20406131\.gradle\caches\transforms-3\ab55b8632889a16bf62e190dcc9fa00f\transformed\room-runtime-2.6.0\AndroidManifest.xml:27:13-37
+105
+106        <receiver
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+108            android:directBootAware="false"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+109            android:enabled="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+110            android:exported="true"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+111            android:permission="android.permission.DUMP" >
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\PR20406131\.gradle\caches\transforms-3\b408ce9b8299d4bb654bcda97d01b53f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+123            </intent-filter>
+124        </receiver>
+125    </application>
+126
+127</manifest>
