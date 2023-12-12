@@ -1,6 +1,6 @@
 <br />
   <a href="https://github.com/othneildrew/Best-README-Template">
-  <h1 align="start">Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin, Coroutines, Retrofit, Room, Solid Principle, DRY,OOP</h1>
+  <h2 align="start">Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin, Coroutines, Retrofit, Room, Solid Principles, DRY Principle, OOPs</h2>
   
 [![License](https://badgen.net/badge/License/Apache/blue/)](https://opensource.org/licenses/Apache-2.0)
 ![MinAPI](https://badgen.net/badge/MinAPI/24/brown/)
@@ -32,7 +32,7 @@
 * [Commits Includes](#commits-includes)
 
 # About the Project
-LBGProject is a sample project that presents a modern approach to Android app development.
+Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin is a sample project that presents a modern approach to Android app development.
 The project tries to combine popular Android tools and to demonstrate best development practices by utilizing up to date tech-stack like Compose, Kotlin Flow and Koin.
 The sample app layers its presentation through MVVM Clean Architecture presentation pattern. 
 
@@ -196,7 +196,9 @@ Mockito is used for unit testing the API and network-related components. It allo
   - Android Studio's Gradle JDK version should be Java 17.0.6.
     
 ### Commits Includes
-#### Commit c2510e7b6b3b29c432974c0ee85ce1b80e587a3b
+> [!IMPORTANT]   
+> Commit c2510e7b6b3b29c432974c0ee85ce1b80e587a3b
+
 This commit introduces the following major changes:
 
 **Dependency Injection (DI) Implementation:** The commit includes the implementation of Dependency Injection. This architectural pattern is essential for providing objects with their dependencies, improving code modularity and testability.
