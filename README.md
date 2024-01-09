@@ -1,6 +1,6 @@
 <br />
   <a href="https://github.com/othneildrew/Best-README-Template">
-  <h2 align="start">Kotlin MVVM-Clean Architect-JetPack Compose-Example-with- DI-Koin, Coroutines, Retrofit, Room, Solid Principles, DRY Principle, OOPs</h2>
+  <h2 align="start">Kotlin Jetpack compose MVVM-Clean Architect-Example-with- DI-Koin, Coroutines, Retrofit, Room, Solid Principles, DRY Principle, OOPs</h2>
   
 [![License](https://badgen.net/badge/License/Apache/blue/)](https://opensource.org/licenses/Apache-2.0)
 ![MinAPI](https://badgen.net/badge/MinAPI/24/silver/)
@@ -122,7 +122,7 @@ which making it easier to develop and test.
 ##### *Note*
 In this example, I initially used two activities to display cats to the user and manage adding or deleting cats from the favorite list. However, it's possible to achieve the same functionality within 
 a single activity by implementing a navigation scenario for a fullView Composable, jetpack Navigation, you can follow these steps:
-1. Set Up Jetpack Navigation: forreference [click here](https://github.com/Prashant-Chandel/jetpack-compose-Single-Activity-MVVM-clean-Architect-Example-with-KOIN-) 
+1. Set Up Jetpack Navigation: for reference [click here](https://github.com/Prashant-Chandel/jetpack-compose-Single-Activity-MVVM-clean-Architect-Example-with-KOIN-) 
 ```kotlin 
  object Route {
         const val CAT_FULL_View = "Cat_Image_AS_Sized/{CatUrl}/{imageId}"
@@ -270,9 +270,7 @@ scope {
 To integrate it into the ViewModel, ensure that your ViewModel implements the KoinComponent. This allows the ViewModel to leverage Koin's dependency injection features seamlessly.
 
 **SOLID Principles and Kotlin Components:** The code adheres to the SOLID principles, ensuring that the code base is structured with a focus on Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles. Additionally, Kotlin-specific components and functions are leveraged for efficient and expressive code.
- 
 
- 
 
   **Thank you**😎
 # Licensed
